@@ -1,0 +1,28 @@
+XGB Rotate Children SMOTE
+
+              precision    recall  f1-score   support
+
+           0       0.50      0.50      0.50         6
+           1       0.82      0.82      0.82        11
+           2       0.67      1.00      0.80         2
+           3       0.60      0.75      0.67         4
+           4       1.00      0.50      0.67         2
+           5       1.00      0.67      0.80         3
+
+    accuracy                           0.71        28
+   macro avg       0.76      0.71      0.71        28
+weighted avg       0.74      0.71      0.71        28
+
+
+=== Confusion Matrix ===
+[[3 2 0 1 0 0]
+ [1 9 1 0 0 0]
+ [0 0 2 0 0 0]
+ [1 0 0 3 0 0]
+ [0 0 0 1 1 0]
+ [1 0 0 0 0 2]]
+
+Accuracy: 0.714
+Precision: 0.740
+Recall: 0.714
+F1 Score: 0.714

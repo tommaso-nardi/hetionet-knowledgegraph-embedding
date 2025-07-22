@@ -1,0 +1,26 @@
+GB Node Grandchildren
+
+                  precision    recall  f1-score   support
+
+          cancer       0.53      0.73      0.62        11
+gastrointestinal       0.00      0.00      0.00         2
+   immune_system       1.00      0.25      0.40         4
+   mental_health       0.00      0.00      0.00         2
+  nervous_system       0.50      0.67      0.57         3
+
+        accuracy                           0.50        22
+       macro avg       0.41      0.33      0.32        22
+    weighted avg       0.52      0.50      0.46        22
+
+
+=== Confusion Matrix ===
+[[8 0 0 2 1]
+ [2 0 0 0 0]
+ [3 0 1 0 0]
+ [1 0 0 0 1]
+ [1 0 0 0 2]]
+
+Accuracy: 0.500
+Precision: 0.517
+Recall: 0.500
+F1 Score: 0.458

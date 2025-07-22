@@ -1,0 +1,28 @@
+XGB Transe Children
+
+              precision    recall  f1-score   support
+
+           0       0.50      0.33      0.40         6
+           1       0.64      0.82      0.72        11
+           2       0.00      0.00      0.00         2
+           3       0.50      0.75      0.60         4
+           4       0.00      0.00      0.00         2
+           5       0.00      0.00      0.00         3
+
+    accuracy                           0.50        28
+   macro avg       0.27      0.32      0.29        28
+weighted avg       0.43      0.50      0.45        28
+
+
+=== Confusion Matrix ===
+[[2 3 0 1 0 0]
+ [0 9 0 1 0 1]
+ [0 0 0 1 0 1]
+ [0 1 0 3 0 0]
+ [1 1 0 0 0 0]
+ [1 0 0 0 2 0]]
+
+Accuracy: 0.500
+Precision: 0.431
+Recall: 0.500
+F1 Score: 0.454

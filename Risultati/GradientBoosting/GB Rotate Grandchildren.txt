@@ -1,0 +1,28 @@
+GB Rotate Grandchildren
+
+                  precision    recall  f1-score   support
+
+         Unknown       0.30      0.50      0.38         6
+          cancer       0.80      0.73      0.76        11
+gastrointestinal       0.00      0.00      0.00         2
+   immune_system       0.50      0.25      0.33         4
+   mental_health       1.00      0.50      0.67         2
+  nervous_system       1.00      0.33      0.50         3
+
+        accuracy                           0.50        28
+       macro avg       0.60      0.39      0.44        28
+    weighted avg       0.63      0.50      0.53        28
+
+
+=== Confusion Matrix ===
+[[3 1 1 1 0 0]
+ [2 8 1 0 0 0]
+ [1 1 0 0 0 0]
+ [2 0 1 1 0 0]
+ [1 0 0 0 1 0]
+ [1 0 1 0 0 1]]
+
+Accuracy: 0.500
+Precision: 0.629
+Recall: 0.500
+F1 Score: 0.528

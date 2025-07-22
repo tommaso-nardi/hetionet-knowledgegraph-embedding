@@ -1,0 +1,28 @@
+RF Grand Transe
+
+                  precision    recall  f1-score   support
+
+         Unknown       0.00      0.00      0.00         6
+          cancer       0.46      1.00      0.63        11
+gastrointestinal       0.00      0.00      0.00         2
+   immune_system       1.00      0.50      0.67         4
+   mental_health       0.00      0.00      0.00         2
+  nervous_system       0.00      0.00      0.00         3
+
+        accuracy                           0.46        28
+       macro avg       0.24      0.25      0.22        28
+    weighted avg       0.32      0.46      0.34        28
+
+
+=== Confusion Matrix ===
+[[ 0  5  1  0  0  0]
+ [ 0 11  0  0  0  0]
+ [ 0  2  0  0  0  0]
+ [ 0  2  0  2  0  0]
+ [ 0  2  0  0  0  0]
+ [ 1  2  0  0  0  0]]
+
+Accuracy: 0.464
+Precision: 0.323
+Recall: 0.464
+F1 Score: 0.342

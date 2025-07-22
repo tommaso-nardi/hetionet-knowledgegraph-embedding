@@ -1,0 +1,24 @@
+                  precision    recall  f1-score   support
+
+          cancer       0.50      1.00      0.67        11
+gastrointestinal       0.00      0.00      0.00         2
+   immune_system       0.00      0.00      0.00         4
+   mental_health       0.00      0.00      0.00         2
+  nervous_system       0.00      0.00      0.00         3
+
+        accuracy                           0.50        22
+       macro avg       0.10      0.20      0.13        22
+    weighted avg       0.25      0.50      0.33        22
+
+
+=== Confusion Matrix ===
+[[11  0  0  0  0]
+ [ 2  0  0  0  0]
+ [ 4  0  0  0  0]
+ [ 2  0  0  0  0]
+ [ 3  0  0  0  0]]
+
+Accuracy: 0.500
+Precision: 0.250
+Recall: 0.500
+F1 Score: 0.333

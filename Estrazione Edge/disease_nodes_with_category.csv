@@ -1,0 +1,138 @@
+id,name,category
+DOID:4606,bile duct cancer,cancer
+DOID:8778,Crohn's disease,gastrointestinal
+DOID:1793,pancreatic cancer,cancer
+DOID:11612,polycystic ovary syndrome,
+DOID:0050742,nicotine dependence,mental_health
+DOID:10871,age related macular degeneration,nervous_system
+DOID:2377,multiple sclerosis,nervous_system
+DOID:12236,primary biliary cirrhosis,gastrointestinal
+DOID:0050156,idiopathic pulmonary fibrosis,immune_system
+DOID:5099,middle ear cancer,cancer
+DOID:3310,atopic dermatitis,immune_system
+DOID:10763,hypertension,
+DOID:10283,prostate cancer,cancer
+DOID:1725,peritoneum cancer,cancer
+DOID:7693,abdominal aortic aneurysm,
+DOID:1826,epilepsy syndrome,nervous_system
+DOID:1612,breast cancer,cancer
+DOID:11239,appendix cancer,cancer
+DOID:3312,bipolar disorder,mental_health
+DOID:10608,celiac disease,gastrointestinal
+DOID:1936,atherosclerosis,
+DOID:4362,cervical cancer,cancer
+DOID:5408,Paget's disease of bone,immune_system
+DOID:11819,ureter cancer,cancer
+DOID:11934,head and neck cancer,cancer
+DOID:9970,obesity,
+DOID:10976,membranous glomerulonephritis,
+DOID:986,alopecia areata,immune_system
+DOID:1686,glaucoma,nervous_system
+DOID:5041,esophageal cancer,cancer
+DOID:11949,Creutzfeldt-Jakob disease,nervous_system
+DOID:5612,spinal cancer,cancer
+DOID:10811,nasal cavity cancer,cancer
+DOID:585,nephrolithiasis,
+DOID:2986,IgA glomerulonephritis,
+DOID:175,vascular cancer,cancer
+DOID:13241,Behcet's disease,immune_system
+DOID:11555,Fuchs' endothelial dystrophy,nervous_system
+DOID:184,bone cancer,cancer
+DOID:8850,salivary gland cancer,cancer
+DOID:4159,skin cancer,cancer
+DOID:11615,penile cancer,cancer
+DOID:1595,endogenous depression,mental_health
+DOID:2841,asthma,
+DOID:3121,gallbladder cancer,cancer
+DOID:3070,malignant glioma,cancer
+DOID:1781,thyroid cancer,cancer
+DOID:5875,retroperitoneal cancer,cancer
+DOID:3571,liver cancer,cancer
+DOID:13223,uterine fibroid,
+DOID:10652,Alzheimer's disease,nervous_system
+DOID:9917,pleural cancer,
+DOID:2998,testicular cancer,cancer
+DOID:10534,stomach cancer,cancer
+DOID:1909,melanoma,cancer
+DOID:9206,Barrett's esophagus,gastrointestinal
+DOID:1324,lung cancer,cancer
+DOID:0060119,pharynx cancer,cancer
+DOID:3565,meningioma,cancer
+DOID:2355,anemia,
+DOID:11476,osteoporosis,immune_system
+DOID:1115,sarcoma,cancer
+DOID:1245,vulva cancer,cancer
+DOID:2531,hematologic cancer,cancer
+DOID:9296,cleft lip,gastrointestinal
+DOID:0050741,alcohol dependence,mental_health
+DOID:1964,fallopian tube cancer,cancer
+DOID:7147,ankylosing spondylitis,immune_system
+DOID:1192,peripheral nervous system neoplasm,cancer
+DOID:11119,Gilles de la Tourette syndrome,mental_health
+DOID:263,kidney cancer,cancer
+DOID:5559,mediastinal cancer,cancer
+DOID:8893,psoriasis,immune_system
+DOID:11714,gestational diabetes,
+DOID:14330,Parkinson's disease,nervous_system
+DOID:8986,narcolepsy,mental_health
+DOID:594,panic disorder,mental_health
+DOID:3393,coronary artery disease,
+DOID:12361,Graves' disease,immune_system
+DOID:8577,ulcerative colitis,gastrointestinal
+DOID:14221,metabolic syndrome X,
+DOID:2994,germ cell cancer,cancer
+DOID:14227,azoospermia,
+DOID:4481,allergic rhinitis,immune_system
+DOID:12995,conduct disorder,mental_health
+DOID:12930,dilated cardiomyopathy,
+DOID:332,amyotrophic lateral sclerosis,nervous_system
+DOID:11920,tracheal cancer,cancer
+DOID:2174,ocular cancer,cancer
+DOID:9835,refractive error,nervous_system
+DOID:9074,systemic lupus erythematosus,immune_system
+DOID:1312,focal segmental glomerulosclerosis,
+DOID:119,vaginal cancer,cancer
+DOID:9008,psoriatic arthritis,immune_system
+DOID:7148,rheumatoid arthritis,immune_system
+DOID:13189,gout,immune_system
+DOID:2596,larynx cancer,cancer
+DOID:8398,osteoarthritis,immune_system
+DOID:3083,chronic obstructive pulmonary disease,
+DOID:10941,intracranial aneurysm,nervous_system
+DOID:824,periodontitis,gastrointestinal
+DOID:4045,muscle cancer,cancer
+DOID:9744,type 1 diabetes mellitus,immune_system
+DOID:14004,thoracic aortic aneurysm,
+DOID:2394,ovarian cancer,cancer
+DOID:13499,jejunal cancer,cancer
+DOID:1024,leprosy,
+DOID:5419,schizophrenia,mental_health
+DOID:10021,duodenum cancer,cancer
+DOID:0060073,lymphatic system cancer,cancer
+DOID:4989,pancreatitis,
+DOID:12849,autistic disorder,mental_health
+DOID:12185,otosclerosis,nervous_system
+DOID:418,systemic scleroderma,immune_system
+DOID:9352,type 2 diabetes mellitus,
+DOID:10153,ileum cancer,cancer
+DOID:14268,sclerosing cholangitis,gastrointestinal
+DOID:12306,vitiligo,immune_system
+DOID:216,dental caries,gastrointestinal
+DOID:2043,hepatitis B,gastrointestinal
+DOID:13378,Kawasaki disease,immune_system
+DOID:11054,urinary bladder cancer,cancer
+DOID:90,degenerative disc disease,immune_system
+DOID:6364,migraine,nervous_system
+DOID:1094,attention deficit hyperactivity disorder,mental_health
+DOID:3277,thymus cancer,cancer
+DOID:784,chronic kidney failure,
+DOID:363,uterine cancer,cancer
+DOID:1319,brain cancer,cancer
+DOID:1790,malignant mesothelioma,cancer
+DOID:1993,rectum cancer,cancer
+DOID:219,colon cancer,cancer
+DOID:1459,hypothyroidism,
+DOID:12365,malaria,
+DOID:3953,adrenal gland cancer,cancer
+DOID:635,acquired immunodeficiency syndrome,
+DOID:0050425,restless legs syndrome,nervous_system

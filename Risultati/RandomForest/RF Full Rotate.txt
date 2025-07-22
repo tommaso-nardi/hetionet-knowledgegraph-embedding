@@ -1,0 +1,27 @@
+                  precision    recall  f1-score   support
+
+         Unknown       0.50      0.50      0.50         6
+          cancer       0.79      1.00      0.88        11
+gastrointestinal       0.00      0.00      0.00         2
+   immune_system       0.75      0.75      0.75         4
+   mental_health       0.50      1.00      0.67         2
+  nervous_system       0.00      0.00      0.00         3
+
+        accuracy                           0.68        28
+       macro avg       0.42      0.54      0.47        28
+    weighted avg       0.56      0.68      0.61        28
+
+
+=== Confusion Matrix ===
+[[ 3  2  0  1  0  0]
+ [ 0 11  0  0  0  0]
+ [ 1  1  0  0  0  0]
+ [ 1  0  0  3  0  0]
+ [ 0  0  0  0  2  0]
+ [ 1  0  0  0  2  0]]
+
+Accuracy: 0.679
+Precision: 0.559
+Recall: 0.679
+F1 Score: 0.608
+ROC-AUC Score: 0.608

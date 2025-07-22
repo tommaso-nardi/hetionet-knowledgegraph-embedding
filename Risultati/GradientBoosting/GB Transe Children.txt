@@ -1,0 +1,28 @@
+GB Transe Children
+
+                  precision    recall  f1-score   support
+
+         Unknown       0.00      0.00      0.00         6
+          cancer       0.56      0.82      0.67        11
+gastrointestinal       0.00      0.00      0.00         2
+   immune_system       0.67      0.50      0.57         4
+   mental_health       0.00      0.00      0.00         2
+  nervous_system       0.00      0.00      0.00         3
+
+        accuracy                           0.39        28
+       macro avg       0.20      0.22      0.21        28
+    weighted avg       0.32      0.39      0.34        28
+
+
+=== Confusion Matrix ===
+[[0 4 1 1 0 0]
+ [1 9 0 0 1 0]
+ [1 1 0 0 0 0]
+ [2 0 0 2 0 0]
+ [0 2 0 0 0 0]
+ [2 0 0 0 1 0]]
+
+Accuracy: 0.393
+Precision: 0.316
+Recall: 0.393
+F1 Score: 0.344

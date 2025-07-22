@@ -1,0 +1,28 @@
+GB Rotate Full
+
+                  precision    recall  f1-score   support
+
+         Unknown       0.60      0.50      0.55         6
+          cancer       0.71      0.91      0.80        11
+gastrointestinal       0.00      0.00      0.00         2
+   immune_system       0.50      0.50      0.50         4
+   mental_health       0.00      0.00      0.00         2
+  nervous_system       1.00      0.33      0.50         3
+
+        accuracy                           0.57        28
+       macro avg       0.47      0.37      0.39        28
+    weighted avg       0.59      0.57      0.56        28
+
+
+=== Confusion Matrix ===
+[[ 3  2  0  1  0  0]
+ [ 0 10  1  0  0  0]
+ [ 0  1  0  1  0  0]
+ [ 2  0  0  2  0  0]
+ [ 0  1  1  0  0  0]
+ [ 0  0  0  0  2  1]]
+
+Accuracy: 0.571
+Precision: 0.588
+Recall: 0.571
+F1 Score: 0.556

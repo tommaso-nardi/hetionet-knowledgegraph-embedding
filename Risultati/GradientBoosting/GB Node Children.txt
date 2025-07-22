@@ -1,0 +1,26 @@
+GB Node Children
+
+                  precision    recall  f1-score   support
+
+          cancer       0.40      0.55      0.46        11
+gastrointestinal       0.00      0.00      0.00         2
+   immune_system       0.00      0.00      0.00         4
+   mental_health       0.00      0.00      0.00         2
+  nervous_system       0.00      0.00      0.00         3
+
+        accuracy                           0.27        22
+       macro avg       0.08      0.11      0.09        22
+    weighted avg       0.20      0.27      0.23        22
+
+
+=== Confusion Matrix ===
+[[6 0 3 0 2]
+ [2 0 0 0 0]
+ [3 0 0 0 1]
+ [2 0 0 0 0]
+ [2 0 1 0 0]]
+
+Accuracy: 0.273
+Precision: 0.200
+Recall: 0.273
+F1 Score: 0.231

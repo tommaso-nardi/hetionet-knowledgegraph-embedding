@@ -1,0 +1,28 @@
+XGB Transe Full
+
+              precision    recall  f1-score   support
+
+           0       0.50      0.67      0.57         6
+           1       0.65      1.00      0.79        11
+           2       0.00      0.00      0.00         2
+           3       1.00      0.50      0.67         4
+           4       0.00      0.00      0.00         2
+           5       0.00      0.00      0.00         3
+
+    accuracy                           0.61        28
+   macro avg       0.36      0.36      0.34        28
+weighted avg       0.50      0.61      0.53        28
+
+
+=== Confusion Matrix ===
+[[ 4  2  0  0  0  0]
+ [ 0 11  0  0  0  0]
+ [ 1  1  0  0  0  0]
+ [ 1  1  0  2  0  0]
+ [ 0  1  0  0  0  1]
+ [ 2  1  0  0  0  0]]
+
+Accuracy: 0.607
+Precision: 0.504
+Recall: 0.607
+F1 Score: 0.526
