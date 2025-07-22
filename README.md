@@ -1,4 +1,4 @@
-## FDSML - Classificazione Automatica di Malattie tramite Knowledge Graph Embedding
+## FDSML - Classificazione di Malattie tramite Knowledge Graph Embedding
 
 Sistema di machine learning per la classificazione automatica di malattie in categorie cliniche utilizzando tecniche di embedding su knowledge graph biomedici.
 
