@@ -18,11 +18,11 @@ File Embeddings raccolgono le rappresentazioni vettoriali generate dai tre algor
 
 ### Approccio Metodologico
 
-Il sistema valuta sistematicamente 27 configurazioni ottenute dalla combinazione di 3 algoritmi di embedding, 3 strategie di filtraggio e 3 classificatori. TransE implementa un approccio traslazionale che modella le relazioni come traslazioni vettoriali nello spazio euclideo, mentre RotatE utilizza rotazioni nello spazio complesso per catturare pattern relazionali più sofisticati. Node2Vec applica tecniche di random walk per generare embedding basati su similarità strutturali nel grafo.
+Il sistema valuta sistematicamente 27 configurazioni ottenute dalla combinazione di 3 algoritmi di embedding, 3 strategie di filtraggio e 3 classificatori supervisionati. TransE implementa un approccio traslazionale che modella le relazioni come traslazioni vettoriali nello spazio euclideo, mentre RotatE utilizza rotazioni nello spazio complesso per catturare pattern relazionali più sofisticati. Node2Vec applica tecniche di random walk per generare embedding basati su similarità strutturali nel grafo.
 
-Gli algoritmi di embedding vengono applicati ai sottografi estratti secondo le tre strategie, producendo rappresentazioni vettoriali che catturano diverse granularità di informazione relazionale. Le rappresentazioni generate vengono quindi utilizzate per addestrare i classificatori ensemble, permettendo una valutazione comparativa delle capacità discriminative di ciascuna combinazione metodologica.
+Gli algoritmi di embedding vengono applicati ai sottografi estratti secondo le tre strategie, producendo rappresentazioni vettoriali embedding che catturano diverse granularità di informazione relazionale. Le rappresentazioni generate vengono quindi utilizzate per addestrare i classificatori ensemble, permettendo una valutazione comparativa delle capacità discriminative di ciascuna combinazione metodologica.
 
 ### Risultati e Performance
 
 Come ben visibile dalla cartella Risultati, la configurazione ottimale identificata combina RotatE con Random Forest e la strategia children, raggiungendo il 67.9% di accuratezza con un F1-score di 0.633.
-L'analisi comparativa evidenzia che RotatE mantiene performance consistentemente elevate across tutte le strategie di filtraggio, mentre TransE raggiunge risultati competitivi principalmente con la strategia informativi. Node2Vec presenta limitazioni significative nel dominio biomedico, suggerendo che gli approcci basati su random walk non catturano efficacemente le relazioni semantiche specifiche dei knowledge graph medici.
+L'analisi comparativa evidenzia che RotatE mantiene performance consistentemente elevate across tutte le strategie di filtraggio, mentre TransE raggiunge risultati competitivi principalmente con la strategia informativi, Node2Vec presenta invece limitazioni significative, suggerendo che gli approcci basati su random walk non sono adatti per questo tipo di task.
